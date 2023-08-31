@@ -1,5 +1,3 @@
-//made some changes
-// I made some more changes on friday
 
 
 console.log("wahey!");
