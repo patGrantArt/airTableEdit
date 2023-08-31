@@ -1,0 +1,74 @@
+/* macrocolour */
+:root {
+	--yellow: rgb(255 222 44);
+	--yellowOrange: rgb(255, 174, 44);
+	--orange: rgb(255, 150, 44);
+    --black: black;
+	
+}
+
+/* macro type */
+@font-face {
+    /* font-family: 'press_start_2pregular';
+    src: url('pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('pressstart2p-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; */
+}
+
+
+
+/* macro layout */
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	font-size: 1 em;
+    font-family: 'press_start_2pregular', Helvetica, sans-serif;	
+    color: #484848;
+	display:flex;
+    justify-content: center;
+}
+.myForm {
+    width: 320px;
+    height: 50vh;
+    background-color: var(--yellow);
+    padding: 1%;
+    margin-top: 20vh;
+    border-radius: 20px;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: center;
+
+}
+
+.break {
+    clear: both;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: underline;
+	font-weight: bold;
+	
+}
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a img {
+	border:medium none;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+    list-style-type: none;
+}  
+
+/* dev mode - delete on refactor and delpoy */
+
+

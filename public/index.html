@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Testing Input with Airtable API
+</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="data.js"></script>
+<script src="library.js"></script>
+<script src="init.js"></script>
+
+<body>
+  
+    <!-- <form action="/new" method="post">
+        <label>
+          Name:
+          <input name="item-name" autocomplete="name" />
+        </label>
+        <label>
+            Type:
+            <input name="item-type" autocomplete="type" />
+          </label>
+        <button>Create</button>
+    </form> -->
+
+
+    <div class="myForm">
+        <label>
+            <p>Name:</p>
+            <input id="newName" class="inputName" value="the name">
+        </label>
+        <label>
+            <p>Type:</p>
+            <select name="" id="newType" class="inputName">
+                <option value="book">book</option>
+                <option value="artist">artist</option>
+                <option value="plain">plain</option>
+             </select>
+        </label>
+
+        <button id="createItemButton" onclick="newItem()">Create Item</button>
+    </div>
+
+       
+
+
+  
+    
+
+</body>
+
+
+<script>
+    document.onload = letsGo();   
+</script>
+
+</html>
